@@ -37,6 +37,5 @@ client.connect(function(err) {
       console.log('Unable to fetch todos', err);
   });
 
-
   client.close();
 });
